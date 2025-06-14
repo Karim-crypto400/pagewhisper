@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Page Whisper | Customize</title>
+    <style>
+        body { font-family: 'Georgia', serif; margin: 0; background-color: #fdf8f2; color: #4b3621; }
+        header { background-color: #f2e6d9; padding: 20px; text-align: center; }
+        nav a { margin: 0 15px; text-decoration: none; color: #4b3621; font-weight: bold; }
+        .customize { padding: 40px 20px; text-align: center; }
+        input, textarea { width: 300px; padding: 10px; margin: 10px 0; border: 1px solid #ccc; border-radius: 5px; }
+        button { padding: 10px 20px; background-color: #4b3621; color: #fff; border: none; border-radius: 5px; cursor: pointer; }
+        .preview { margin-top: 30px; }
+        .bookmark-frame { width: 150px; height: 300px; background-color: #fff; border: 2px solid #ccc; border-radius: 10px; margin: 0 auto; position: relative; overflow: hidden; }
+        .bookmark-frame img { width: 100%; height: auto; }
+        footer { background-color: #4b3621; color: #fff; text-align: center; padding: 20px; }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Page Whisper</h1>
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="shop.html">Shop</a>
+        <a href="custom-bookmark.html">Customize</a>
+        <a href="#about">About</a>
+        <a href="#contact">Contact</a>
+    </nav>
+</header>
+
+<section class="customize">
+    <h2>Customize Your Bookmark</h2>
+    <form>
+        <input type="text" placeholder="Your Name/Text on Bookmark" required><br>
+        <input type="file" accept="image/*"><br>
+        <button type="submit">Preview</button>
+    </form>
+
+    <div class="preview">
+        <h3>Preview</h3>
+        <div class="bookmark-frame">
+            <img src="images/sample-bookmark.jpg" alt="Bookmark Preview">
+        </div>
+    </div>
+</section>
+
+<footer>
+    <p>Follow us on Instagram: @PageWhisper</p>
+    <p>Contact: hello@pagewhisper.com</p>
+</footer>
+
+</body>
+</html>
